@@ -5,7 +5,7 @@
     "config": {
         "optimize-autoloader": true,
         "platform": {
-            "php": "7.4.3"
+            "php": "8.0.24"
         },
         "sort-packages": true,
         "allow-plugins": {
@@ -13,7 +13,7 @@
         }
     },
     "prefer-stable": true,
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "scripts": {
         "pre-install-cmd": [
             "[ ! -f vendor/autoload.php ] || $PHP_BINARY bin/console system:update:prepare"
@@ -54,7 +54,6 @@
         }
     ],
     "require": {
-        "php": "^7.4.3 || ^8.0",
         "composer-runtime-api": "^2.0",
         "shopware/administration": "~v6.4.0",
         "shopware/core": "~v6.4.0",
@@ -73,14 +72,15 @@
         "league/flysystem-memory": "~1.0.2",
         "maltyxx/images-generator": "~1.0.0",
         "mbezhanov/faker-provider-collection": "~2.0.1",
+        "mmeester/shopware6-dev-tools": "^0.2.0",
         "nikic/php-parser": "~4.13.2",
         "opis/json-schema": "~1.0.19",
         "phpunit/php-code-coverage": "~9.2.14",
         "phpunit/phpunit": "~9.5.17",
         "smalot/pdfparser": "~0.14.0",
         "symfony/browser-kit": "~4.4 || ~5.2.3 || ~5.3.0 || ~5.4.0",
-        "symfony/dependency-injection": "~4.4 || ~5.2.3 || ~5.3.0 || ~5.4.0",
         "symfony/css-selector": "^5.3",
+        "symfony/dependency-injection": "~4.4 || ~5.2.3 || ~5.3.0 || ~5.4.0",
         "symfony/dom-crawler": "~4.4 || ~5.2.3 || ~5.3.0 || ~5.4.0",
         "symfony/phpunit-bridge": "~4.4 || ~5.2.3 || ~5.3.0 || ~5.4.0",
         "symfony/stopwatch": "~4.4 || ~5.2.3 || ~5.3.0 || ~5.4.0",
