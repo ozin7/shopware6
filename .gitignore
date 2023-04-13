@@ -3,6 +3,7 @@
 custom/plugins/*
 !custom/plugins/.gitkeep
 !custom/plugins/HureiPlugin
+!custom/plugins/SwagBasicExampleTheme
 !custom/static-plugins/
 
 /vendor/
