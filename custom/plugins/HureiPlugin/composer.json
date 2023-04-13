@@ -1,0 +1,18 @@
+{
+  "name": "swag/plugin-skeleton",
+  "description": "Skeleton plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "HureiPlugin\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "HureiPlugin\\HureiPlugin",
+    "label": {
+      "de-DE": "Hurei plugin DE",
+      "en-GB": "Hurei plugin"
+    }
+  }
+}
