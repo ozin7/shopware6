@@ -1,7 +1,8 @@
 /auth.json
 
-custom/*
+custom/plugins/*
 !custom/plugins/.gitkeep
+!custom/plugins/HureiPlugin
 !custom/static-plugins/
 
 /vendor/
